@@ -7,3 +7,8 @@ terraform {
     }
   }
 }
+
+provider "azurerm" {
+  features {}
+  # Terraform will auto-read from ARM_ environment variables
+}
